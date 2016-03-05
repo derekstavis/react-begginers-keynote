@@ -2,8 +2,18 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 class YayItWorks extends React.Component {
+  handleButton() {
+    alert('Yay! It works!')
+  }
+
   render() {
-    return <span>Yay! It works!</span>
+    return (
+      <div>
+        <button onClick={this.handleButton.bind(this)}>
+          Click Me!
+        </button>
+      </div>
+    )
   }
 }
 
