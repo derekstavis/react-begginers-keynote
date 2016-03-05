@@ -1,7 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-const YayItWorks = (props) => <span>Yay! It works!</span>
+class YayItWorks extends React.Component {
+  render() {
+    return <span>Yay! It works!</span>
+  }
+}
 
 const root = document.getElementById('root')
 
