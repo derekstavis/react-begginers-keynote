@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "React for begginers keynote",
   "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/derekstavis/react-begginers-keynote.git"
@@ -14,5 +17,7 @@
   },
   "homepage": "https://github.com/derekstavis/react-begginers-keynote#readme",
   "devDependencies": {
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
   }
 }
